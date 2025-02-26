@@ -1,0 +1,22 @@
+[
+  {
+    "id": 27,
+    "patientCareServiceTitle": "Information"
+  },
+  {
+    "id": 28,
+    "patientCareServiceTitle": "Report Delivery"
+  },
+  {
+    "id": 29,
+    "patientCareServiceTitle": "Customer Care"
+  },
+  {
+    "id": 30,
+    "patientCareServiceTitle": "Cash Counter"
+  },
+  {
+    "id": 38,
+    "patientCareServiceTitle": "Pharmacy/medicine"
+  }
+]

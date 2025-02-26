@@ -4,6 +4,7 @@ import Layout from "../components/layout/layout.jsx";
 import SliderCom from "../components/sliderCom.jsx";
 import WarningCom from "../components/warningCom.jsx";
 import FeatureCardCom from "../components/featureCardCom.jsx";
+import PatientCareCom from "../components/patientCareCom.jsx";
 
 const HomePage = () => {
     return (
@@ -11,6 +12,8 @@ const HomePage = () => {
             <SliderCom/>
             <WarningCom/>
             <FeatureCardCom/>
+
+            <PatientCareCom/>
         </Layout>
     );
 };

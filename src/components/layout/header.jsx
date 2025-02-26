@@ -4,33 +4,15 @@ import { Link } from "react-router-dom";
 import brandImage from "./../../assets/image/headerImage/brand-logo.png";
 import hotlineImage from "./../../assets/image/headerImage/hotline-logo.png";
 import supportMailImage from "./../../assets/image/headerImage/supportmail-logo.png";
+import myVariable from "../../API stores/myVariable.js";
+import menuItems from '../../API stores/menuArray.js'
 
 const Header = () => {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
     const toggleNavbar = () => setIsNavbarOpen(!isNavbarOpen);
 
-    const menuItems = [
-        { title: "Home", path: "/" },
-        {
-            title: "About Us",
-            path: "#",
-            subMenu: [
-                { title: "About our trust", path: "/about/trust" },
-                { title: "Mission and Vision", path: "/about/mission" },
-            ],
-        },
-        {
-            title: "Find a Doctor",
-            path: "#",
-            subMenu: [
-                { title: "Name wise", path: "/findadoctor/name" },
-                { title: "Department wise", path: "/findadoctor/department" },
-                { title: "Branch wise", path: "/findadoctor/branch" },
-            ],
-        },
-        { title: "Contact", path: "/contact" },
-    ];
+
 
     return (
         <div>
@@ -46,14 +28,14 @@ const Header = () => {
 
                     {/* Hotline */}
                     <div className="col-md-4">
-                        <Link to="https://wa.me/09610010615" target='_blank'>
+                        <Link to={myVariable.whatsApp} target='_blank'>
                             <img src={hotlineImage} alt="hotline Logo" />
                         </Link>
                     </div>
 
                     {/* Support Email */}
                     <div className="col-md-4">
-                        <Link to="mailto:info@ibnsinatrust.com" target='_blank'>
+                        <Link to={myVariable.supportMail} target='_blank'>
                             <img src={supportMailImage} alt="supportMail Logo" />
                         </Link>
                     </div>
@@ -85,7 +67,7 @@ const Header = () => {
                     </div>
 
                     {/* Search Bar */}
-                    <form className="form-inline d-flex  order-1 order-md-2">
+                    <form onSubmit={(e)=>e.preventDefault()} className="form-inline d-flex  order-1 order-md-2">
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" />
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
                             <FaSearch />

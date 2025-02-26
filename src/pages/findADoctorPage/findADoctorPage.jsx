@@ -1,6 +1,6 @@
 import React from 'react';
 import {useParams} from "react-router-dom";
-import Layout from "../components/layout/layout.jsx";
+import Layout from "../../components/layout/layout.jsx";
 
 const FindADoctorPage = () => {
 

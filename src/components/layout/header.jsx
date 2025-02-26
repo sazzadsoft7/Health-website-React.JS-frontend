@@ -35,7 +35,7 @@ const Header = () => {
     return (
         <div>
             {/* First Row: Contact Info */}
-            <div className="container-fluid py-2 bg-light">
+            <div className="container-fluid bg-white border-bottom shadow d-md-block d-none">
                 <div className="row align-items-start">
                     {/* Brand Logo */}
                     <div className="col-md-4">
@@ -60,11 +60,11 @@ const Header = () => {
                 </div>
             </div>
 
-            <hr />
+
 
             {/* Navbar Section */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
+                <div className="container-fluid shadow ">
                     {/* Toggle Button for Mobile */}
                     <button
                         className="navbar-toggler"
@@ -77,8 +77,24 @@ const Header = () => {
                         <FaBars />
                     </button>
 
+                    {/* Brand Logo */}
+                    <div className="col-md-4 d-md-none ">
+                        <Link to="/">
+                            <img src={brandImage} alt="Brand Logo" height={'30px'} />
+                        </Link>
+                    </div>
+
+                    {/* Search Bar */}
+                    <form className="form-inline d-flex  order-1 order-md-2">
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search" />
+                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <FaSearch />
+                        </button>
+                    </form>
+
+
                     {/* Navbar Links */}
-                    <div className={`collapse navbar-collapse ${isNavbarOpen ? "show" : ""}`} id="navbarNav">
+                    <div className={`order-2 order-md-1 collapse navbar-collapse ${isNavbarOpen ? "show" : ""}`} id="navbarNav">
                         <ul className="navbar-nav mr-auto">
                             {menuItems.map((item, index) => (
                                 <li key={index} className={`nav-item ${item.subMenu ? "dropdown" : ""}`}>
@@ -111,15 +127,9 @@ const Header = () => {
                                 </li>
                             ))}
                         </ul>
-
-                        {/* Search Bar */}
-                        <form className="form-inline d-flex">
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" />
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
-                                <FaSearch />
-                            </button>
-                        </form>
                     </div>
+
+
                 </div>
             </nav>
 

@@ -13,6 +13,18 @@ const myVariable = {
     departmentWise: "/findadoctor/department",
     branchWise: "/findadoctor/branch",
 
+//     Our Service
+    hospitalService: "/ourservice/hospital_services",
+    homeServiceCovid: "/ourservice/home_service",
+    diagnosticService: "/ourservice/diagnostic_services",
+    diabetesCenter: "/ourservice/diabetes_center",
+    painPhysiotherapy: "/ourservice/pain_and_physiotherapy",
+    dentalCenter: "/ourservice/dental_center",
+    corporateHome: "/ourservice/corporate_home",
+    healthCheckupPackage: "/ourservice/health_check_up_package",
+    childDevelopmentCenter: "/ourservice/child_development_centre",
+
+
 // ------Patient Care page
     patientCarePageLink: "/patientcare",
 

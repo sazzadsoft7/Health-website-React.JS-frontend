@@ -1,0 +1,39 @@
+{
+  "tables": [
+    {
+      "title": "Radiology & Imaging Services",
+      "columns": 2,
+      "data": [
+        ["MRI", "CT SCAN"],
+        ["X-RAY", "DENTAL XRAY"],
+        ["MAMMOGRAPHY", "BONE DENSITOMETER"],
+        ["USG", "ECG"],
+        ["ECHOCARDIOGRAM", "COLOR DOPPLER"],
+        ["ETT", "HOLTER MONITOR"],
+        ["HOLTER ECG", "DUPLEX STUDY"],
+        ["ENDOSCOPY", "ERCP"],
+        ["COLONOSCOPY", "COLPOSCOPY"],
+        ["EEG", "NCV/EMG"],
+        ["FIBER OPTIC LARYNGOSCOPY", "FIBROSCAN"],
+        ["SPIROMETRY", "UROFLOWMETRY"]
+      ]
+    },
+    {
+      "title": "Pathology Services",
+      "columns": 1,
+      "data": [
+        ["BIOCHEMISTRY"],
+        ["HAEMATOLOGY"],
+        ["IMMUNOLOGY"],
+        ["SEROLOGY"],
+        ["MICROBIOLOGY"],
+        ["CYTOPATHOLOGY"],
+        ["HISTOPATHOLOGY"],
+        ["CLINICAL PATHOLOGY"],
+        ["PCR LAB"],
+        ["IMMUNOHISTOCHEMISTRY (IHC)"],
+        ["FlOWCYTOMETRY"]
+      ]
+    }
+  ]
+}

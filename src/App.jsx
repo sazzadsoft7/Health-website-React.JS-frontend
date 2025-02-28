@@ -11,6 +11,7 @@ import DiagnosticServicePage from "./pages/ourService/diagnosticServicePage.jsx"
 import HealthCheckUpPackagesPage from "./pages/ourService/healthCheckUpPackagesPage.jsx";
 import CardiacServicePage from "./pages/ourService/cardiacServicePage.jsx";
 import SurgeryPackagePage from "./pages/ourService/surgeryPackagePage.jsx";
+import NoResultCom from "./components/noResultCom.jsx";
 
 // top page position
 function ScrollToTop() {
@@ -50,6 +51,10 @@ function App() {
 
           {/* Patient care page */}
           <Route path='/patientcare' element={<PatientCarePage/>}/>
+
+        {/*  No result on other path*/}
+          <Route path='*' element={<NoResultCom/>}/>
+
         </Routes>
       </BrowserRouter>
   );

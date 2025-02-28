@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-
+// Dynamic image received
 const images = import.meta.glob('../assets/image/sliderImage/*.{png,jpg,jpeg,svg}', { eager: true });
-
 const imageArray = Object.values(images).map((img) => img.default);
 
 const SliderCom = () => {

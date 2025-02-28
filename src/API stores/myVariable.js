@@ -25,6 +25,7 @@ const myVariable = {
     healthCheckupPackage: "/ourservice/health_check_up_package",
     surgeryPackage: "/ourservice/surgery_package",
     childDevelopmentCenter: "/ourservice/child_development_centre",
+    radiotherapyService: '/ourservice/radiotherapy_service',
 
 
 // ------Patient Care page

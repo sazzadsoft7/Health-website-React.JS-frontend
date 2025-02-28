@@ -1,22 +1,22 @@
 [
   {
     "id": 27,
-    "patientCareServiceTitle": "Information"
+    "patientCareServiceTitle": "Information - Service 1"
   },
   {
     "id": 28,
-    "patientCareServiceTitle": "Report Delivery"
+    "patientCareServiceTitle": "Report Delivery - Service 2"
   },
   {
     "id": 29,
-    "patientCareServiceTitle": "Customer Care"
+    "patientCareServiceTitle": "Customer Care - Service 3"
   },
   {
     "id": 30,
-    "patientCareServiceTitle": "Cash Counter"
+    "patientCareServiceTitle": "Cash Counter - Service 4"
   },
   {
     "id": 38,
-    "patientCareServiceTitle": "Pharmacy/medicine"
+    "patientCareServiceTitle": "Pharmacy/medicine - Service 5"
   }
 ]

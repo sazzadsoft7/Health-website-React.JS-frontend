@@ -1,94 +1,42 @@
 [
   {
     "id": 1,
-    "branchTitle": "Ibn Sina Diagnostic & Imaging Center, Dhanmondi"
+    "branchTitle": "Ibn Sina Diagnostic & Imaging Center, Dhanmondi - Branch 1"
   },
   {
     "id": 2,
-    "branchTitle": "Ibn Sina Specialized Hospital, Dhanmondi"
+    "branchTitle": "Ibn Sina Specialized Hospital, Dhanmondi - Branch 2"
   },
   {
     "id": 3,
-    "branchTitle": "Ibn Sina Medical Imaging Center, Zigatola"
+    "branchTitle": "Ibn Sina Medical Imaging Center, Zigatola - Branch 3"
   },
   {
     "id": 4,
-    "branchTitle": "Ibn Sina Medical College Hospital, Kallyanpur"
+    "branchTitle": "Ibn Sina Medical College Hospital, Kallyanpur - Branch 4"
   },
   {
-    "id": 37,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Mirpur"
+    "id": 5,
+    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Mirpur - Branch 5"
   },
   {
     "id": 6,
-    "branchTitle": "Ibn Sina D.Lab & Consultation Center, Doyagonj"
+    "branchTitle": "Ibn Sina D.Lab & Consultation Center, Doyagonj - Branch 6"
   },
   {
     "id": 7,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Badda"
+    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Badda - Branch 7"
   },
   {
     "id": 8,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Uttara"
+    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Uttara - Branch 8"
   },
   {
     "id": 9,
-    "branchTitle": "Ibn Sina Diagnostic Center Lalbagh Ltd."
+    "branchTitle": "Ibn Sina Diagnostic Center Lalbagh Ltd. - Branch 9"
   },
   {
     "id": 10,
-    "branchTitle": "Ibn Sina Hospital & Diagnostic Center, Jashore. We are ISO 9001-2015 Certified."
-  },
-  {
-    "id": 14,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Bogura"
-  },
-  {
-    "id": 15,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Malibagh"
-  },
-  {
-    "id": 30,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Savar"
-  },
-  {
-    "id": 38,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Keraniganj Ltd."
-  },
-  {
-    "id": 41,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Chattogram"
-  },
-  {
-    "id": 43,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Cumilla"
-  },
-  {
-    "id": 50,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Rajshahi"
-  },
-  {
-    "id": 48,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Jatrabari"
-  },
-  {
-    "id": 51,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Mirpur"
-  },
-  {
-    "id": 52,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Keraniganj Ltd."
-  },
-  {
-    "id": 53,
-    "branchTitle": "Ibn Sina Diagnostic & Consultation Center, Keraniganj Ltd."
-  },
-  {
-    "id": 54,
-    "branchTitle": "Ibn Sina Hospital & Diagnostic Center, Noakhali"
-  },
-  {
-    "id": 55,
-    "branchTitle": "Ibn Sina Diagnostic & Imaging Center, Noakhali"
+    "branchTitle": "Ibn Sina Hospital & Diagnostic Center, Jashore - Branch 10"
   }
 ]

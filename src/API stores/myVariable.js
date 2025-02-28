@@ -21,7 +21,9 @@ const myVariable = {
     painPhysiotherapy: "/ourservice/pain_and_physiotherapy",
     dentalCenter: "/ourservice/dental_center",
     corporateHome: "/ourservice/corporate_home",
+    cardiacService: "/ourservice/cardiac_service",
     healthCheckupPackage: "/ourservice/health_check_up_package",
+    surgeryPackage: "/ourservice/surgery_package",
     childDevelopmentCenter: "/ourservice/child_development_centre",
 
 

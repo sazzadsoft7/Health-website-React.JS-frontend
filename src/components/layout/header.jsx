@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import { FaPhone, FaEnvelope, FaSearch, FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import brandImage from "./../../assets/image/headerImage/brand-logo.png";
@@ -9,6 +9,22 @@ import menuItems from '../../API stores/menuArray.js'
 
 const Header = () => {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+    const [isSticky, setIsSticky] = useState(false);
+
+    // navbar fixed to top
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.getElementById("navbar");
+            if (window.scrollY > navbar.offsetTop) {
+                setIsSticky(true);
+            } else {
+                setIsSticky(false);
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
 
     const toggleNavbar = () => setIsNavbarOpen(!isNavbarOpen);
 
@@ -45,7 +61,7 @@ const Header = () => {
 
 
             {/* Navbar Section */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <nav id="navbar"  className={`navbar navbar-expand-lg navbar-light bg-light p-0 ${isSticky ? "fixed-top shadow-sm" : ""}`}>
                 <div className="container-fluid shadow ">
                     {/* Toggle Button for Mobile */}
                     <button
@@ -76,8 +92,8 @@ const Header = () => {
 
 
                     {/* Navbar Links */}
-                    <div className={`order-2 order-md-1 collapse navbar-collapse ${isNavbarOpen ? "show" : ""}`} id="navbarNav">
-                        <ul className="navbar-nav mr-auto">
+                    <div className={` order-2 order-md-1 collapse navbar-collapse ${isNavbarOpen ? "show" : ""}`} id="navbarNav">
+                        <ul className=" navbar-nav mr-auto">
                             {menuItems.map((item, index) => (
                                 <li key={index} className={`nav-item ${item.subMenu ? "dropdown" : ""}`}>
                                     {item.subMenu ? (

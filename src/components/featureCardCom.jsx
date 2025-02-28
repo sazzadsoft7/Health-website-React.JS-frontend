@@ -21,8 +21,8 @@ const FeatureCardCom = () => {
 
     const imageArray = Object.entries(images).map(([path, img],index) => {
         // Extract filename and LinkTo from path (removing directories and extension)
-        const fileName = path.split('/').pop().split('.')[0];
-        const linkTo = path.split('/').pop().split('.').slice(1, -1).join('/');
+        const fileName = path.split('/').pop().split('.')[1];
+        const linkTo = path.split('/').pop().split('.').slice(2, -1).join('/');
         const bgColor = bgColors[index % bgColors.length]; // Cycle through the colors
 
         return {

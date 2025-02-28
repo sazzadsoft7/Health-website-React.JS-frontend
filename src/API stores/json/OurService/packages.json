@@ -1,0 +1,151 @@
+{
+  "healthCheckUpPackage": [
+    {
+      "code": "HCP01",
+      "packageName": "Basic Health Check-up for Male/Female (Adult)",
+      "originalRate": "8015/-",
+      "packageRate": "5200/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP02",
+      "packageName": "Executive Health Check-up for Male (Up to 40 years)",
+      "originalRate": "8276/-",
+      "packageRate": "5250/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP03",
+      "packageName": "Executive Health Check-up for Female (Up to 40 years)",
+      "originalRate": "11076/-",
+      "packageRate": "7200/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP04",
+      "packageName": "Executive Health Check-up for Male (Above 40 years)",
+      "originalRate": "12144/-",
+      "packageRate": "7550/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP05",
+      "packageName": "Executive Health Check-up for Female (Post-menopausal / Above 40 years)",
+      "originalRate": "16944/-",
+      "packageRate": "10900/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP06",
+      "packageName": "Comprehensive Health Check-up for Male (Above 40 years)",
+      "originalRate": "20194/-",
+      "packageRate": "12750/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP07",
+      "packageName": "Comprehensive Health Check-up for Female (Post-menopausal / Above 40 years)",
+      "originalRate": "24794/-",
+      "packageRate": "16000/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP08",
+      "packageName": "Cardiac Check-up Package-1 (Suspected)",
+      "originalRate": "7372/-",
+      "packageRate": "5050/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP09",
+      "packageName": "Cardiac Check-up Package-2 (Suffering)",
+      "originalRate": "8372/-",
+      "packageRate": "5800/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP10",
+      "packageName": "Liver Check-up Package-1 (Suspected)",
+      "originalRate": "5204/-",
+      "packageRate": "3500/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP11",
+      "packageName": "Liver Check-up Package-2 (Suffering)",
+      "originalRate": "10797/-",
+      "packageRate": "7200/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP12",
+      "packageName": "Primary Diabetic Check-up Package",
+      "originalRate": "3090/-",
+      "packageRate": "1950/-",
+      "doctorsFee": "300/-"
+    },
+    {
+      "code": "HCP13",
+      "packageName": "Standard Diabetic Check-up Package",
+      "originalRate": "6758/-",
+      "packageRate": "4300/-",
+      "doctorsFee": "300/-"
+    },
+    {
+      "code": "HCP14",
+      "packageName": "Thyroid Check-up Package",
+      "originalRate": "6561/-",
+      "packageRate": "4150/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP15",
+      "packageName": "Renal/ Kidney Screening Package",
+      "originalRate": "6279/-",
+      "packageRate": "4000/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP16",
+      "packageName": "Cancer Screening Package for Male",
+      "originalRate": "7115/-",
+      "packageRate": "4350/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP17",
+      "packageName": "Cancer Screening Package for Female",
+      "originalRate": "9933/-",
+      "packageRate": "5900/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP18",
+      "packageName": "Pre-Employment Health Check-up Package",
+      "originalRate": "3433/-",
+      "packageRate": "2250/-",
+      "doctorsFee": "300/-"
+    },
+    {
+      "code": "HCP19",
+      "packageName": "Pre-Marital Check-up Package",
+      "originalRate": "6483/-",
+      "packageRate": "4100/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP20",
+      "packageName": "Child Health Check-up (4 years to 16 years)",
+      "originalRate": "7565/-",
+      "packageRate": "4900/-",
+      "doctorsFee": "500/-"
+    },
+    {
+      "code": "HCP21",
+      "packageName": "Smoker Health Check-up Package",
+      "originalRate": "4661/-",
+      "packageRate": "3100/-",
+      "doctorsFee": "500/-"
+    }
+  ]
+}

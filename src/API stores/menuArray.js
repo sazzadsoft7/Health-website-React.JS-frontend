@@ -26,12 +26,14 @@ const menuItems = [
             { title: "Hospital Services", path: myVariable.hospitalService },
             { title: "Home Service in COVID-19 Situation", path: myVariable.homeServiceCovid },
             { title: "Diagnostic Services", path: myVariable.diagnosticService },
-            { title: "Diabetes Center", path: myVariable.diabetesCenter },
-            { title: "Pain & Physiotherapy", path: myVariable.painPhysiotherapy },
-            { title: "Dental Center", path: myVariable.dentalCenter },
-            { title: "Corporate & Home Services", path: myVariable.corporateHome },
+            // { title: "Diabetes Center", path: myVariable.diabetesCenter },
+            // { title: "Pain & Physiotherapy", path: myVariable.painPhysiotherapy },
+            // { title: "Dental Center", path: myVariable.dentalCenter },
+            // { title: "Corporate & Home Services", path: myVariable.corporateHome },
+            { title: "Cardiac Service", path: myVariable.cardiacService },
             { title: "Health Check-up Package", path: myVariable.healthCheckupPackage },
-            { title: "Child Development Centre (CDC)", path: myVariable.childDevelopmentCenter }
+            // { title: "Child Development Centre (CDC)", path: myVariable.childDevelopmentCenter },
+            { title: "Surgery Packages", path: myVariable.surgeryPackage }
         ]
     },
     { title: "Patient Care", path: myVariable.patientCarePageLink },

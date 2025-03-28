@@ -1,2 +1,2 @@
 # Health-website-React.JS-frontend
-Health website, frontend developed with React.js by Sazzadul Islam.
+Health website, frontend developed with React.js by Sazzad.
